@@ -13,7 +13,12 @@ I am a fresman student in a Baikal State University. My major is linguistics, bu
 *Do not have any yet*....**But i will try my best!**
 ****
 ## Code example
-...
+This code does not execute properly. Try to figure out why.
+```
+multiply = function (a, b) {
+  return a * b;
+}
+```
 ****
 ## Work experience 
 I dont have any related to IT, hope to gain it next year!
