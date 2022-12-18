@@ -1,1 +1,94 @@
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    border: 2px solid black;
+    background-color:bisque;
+    grid-template-areas: "A A A A  A A A A  A A A A"
+                         "A A A A  A A A A  A A A A"
+                         "B B B B  B B B B  B B B B"
+                         "B B B B  B B B B  B B B B"
+                         "C C C C  D D D D  D D D D"
+                         "C C C C  D D D D  D D D D"
+                         "C C C C  D D D D  D D D D"
+                         "C C C C  D D D D  D D D D"
+                         "C C C C  D D D D  D D D D"
+                         "C C C C  D D D D  D D D D"
+                         "E E E E  E E E E  E E E E"
+                         "E E E E  E E E E  E E E E";
+
+
+    
+}
+
+.header {
+    grid-area: A;
+    border: 2px solid black;
+}
+
+.nav {
+    grid-area: B;
+    border: 2px solid black;
+}
+
+.aside {
+    grid-area: C;
+    border: 2px solid black;
+}
+
+.section1 {
+    
+    border: 2px solid black;
+   
+}
+
+.section2 {
+    
+    border: 2px solid black;
+    
+}
+
+.section3 {
+    
+    border: 2px solid black;
+    
+}
+
+.main {
+    grid-area: D;
+    border: 2px solid black;
+}
+
+.content {
+    
+    border: 2px solid black;
+    
+}
+
+.subcontent1 {
+    
+    border: 2px solid black;
+   
+}
+
+.subcontent2 {
+   
+    border: 2px solid black;
+    
+}
+
+.subcontent3 {
+    
+    border: 2px solid black;
+}
+
+.footer {
+    grid-area: E;
+    border: 2px solid black;
+    
+}
