@@ -1,10 +1,10 @@
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 40px 40px 40px;
+    margin:0px;
 }
 
-
+/*  CSS Grid */
 .container {
     display: grid;
     border: 2px solid black;
@@ -34,6 +34,8 @@
 .nav {
     grid-area: B;
     border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
 }
 
 .aside {
@@ -92,3 +94,54 @@
     border: 2px solid black;
     
 }
+
+
+/* Style */
+.photo {
+    display: grid;
+    width:400px ;
+    height:400px ;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 30px;
+    
+
+}
+
+h1 {
+    font-size:50px;
+    font-style: italic;
+    color: brown;
+    text-align: center;
+
+}
+
+h2 {
+    font-size:40px;
+    font-style: italic;
+    color: brown;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    color:brown;
+    text-align: center;
+}
+
+ul {
+    font-size: 25px;
+    color:brown;
+}
+
+code {
+    font-size: 25px;
+    color:brown;
+}
+
+i {
+    font-size: 20px;
+    color:brown
+}
+
