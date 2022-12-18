@@ -6,7 +6,7 @@
 
 /*  CSS Grid */
 .container {
-    justify-items: center;
+    
     
     display: grid;
     gap: 10px;
