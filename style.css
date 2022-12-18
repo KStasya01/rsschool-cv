@@ -8,10 +8,8 @@
 .container {
     display: grid;
     gap: 10px;
-    border: 2px solid brown;
     grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-    background-color:bisque;
     grid-template-areas: "A A A A  A A A A  A A A A"
                          "B B B B  B B B B  B B B B"
                          "C C C C  C C D D  D D D D"
