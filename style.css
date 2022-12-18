@@ -6,8 +6,11 @@
 
 /*  CSS Grid */
 .container {
+    justify-items: center;
+    
     display: grid;
-    border: 2px solid black;
+    gap: 10px;
+    border: 2px solid brown;
     background-color:bisque;
     grid-template-areas: "A A A A  A A A A  A A A A"
                          "A A A A  A A A A  A A A A"
@@ -26,74 +29,100 @@
     
 }
 
+
 .header {
     grid-area: A;
-    border: 2px solid black;
+    
+    border-radius: 5%
 }
 
 .nav {
     grid-area: B;
-    border: 2px solid black;
+    
     text-align: center;
     font-size: 30px;
+    border-radius: 5%
 }
 
 .aside {
     grid-area: C;
-    border: 2px solid black;
+    border: 2px solid brown;
+    background-color: #cc5a4bf2 ;
+    border-radius: 5%
+
 }
 
 .section1 {
-    
-    border: 2px solid black;
+    grid-area: C;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
    
 }
 
 .section2 {
-    
-    border: 2px solid black;
-    
+    grid-area: C;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
 }
 
 .section3 {
-    
-    border: 2px solid black;
+    grid-area: C;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
     
 }
 
 .main {
     grid-area: D;
-    border: 2px solid black;
+    border: 2px solid brown;
+    background-color:#cc5a4bf2;
+    border-radius: 5%
 }
 
 .content {
-    
-    border: 2px solid black;
+    grid-area: D;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
     
 }
 
 .subcontent1 {
-    
-    border: 2px solid black;
-   
+    grid-area: D;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
 }
 
 .subcontent2 {
-   
-    border: 2px solid black;
-    
+   grid-area: D;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
 }
 
 .subcontent3 {
-    
-    border: 2px solid black;
+    grid-area: D;
+    border: 2px solid brown;
+    background-color:bisque;
+    border-radius: 5%
 }
 
 .footer {
     grid-area: E;
-    border: 2px solid black;
+    border: 2px soid brown;
+    text-align: end;
+    font-size: 30px;
+    border-radius: 5%
     
+    
+   
+
 }
+
 
 
 /* Style */
@@ -105,9 +134,17 @@
     justify-content: center;
     align-items: center;
     margin: 30px auto 30px;
-    
+    background-color:bisque;
+    border:2px solid brown;
 
 }
+
+.rsschool {
+    
+    padding: 0;
+    margin: 0;
+}
+
 
 h1 {
     font-size:50px;
@@ -131,6 +168,7 @@ p {
 }
 
 ul {
+
     font-size: 25px;
     color:brown;
 }
