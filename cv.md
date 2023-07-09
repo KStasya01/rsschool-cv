@@ -11,7 +11,7 @@ I am a fresman student at Baikal State University. My major is linguistics, but 
 ****
 ## Skills
 Do not have any related to IT yet....**But i will try my best!**
-****
+**
 ## Code example
 This code does not execute properly. Try to figure out why.
 ```
@@ -22,7 +22,7 @@ multiply = function (a, b) {
 ****
 ## Work experience 
 I dont have any related to IT, hope to gain it next year!
-****
+**
 ## Education 
 Baikal State University: Theory and methodology of foreign language teaching 
 ****
