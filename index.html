@@ -3,69 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
 </head>
 <body>
-
-    <div class="resume">
-        <div class="base">
-          <div class="profile">
-            <div class="photo">
-              <!--<img src="" /> -->
-            </div>
-
-            <div class="info">
+    <div class="container">
+    <header class="header">
+            <section class="photo">
+              <img src="pictures/photo_2023-07-09_22-08-11.jpg" alt="my picture" width="195px" height="225px" >
+            </section>
+            <section class="info">
               <h1 class="name">Kalinina Anastasia</h1>
-            </div>
-          </div>
+            </section>
+        </header>
 
-          <div class="about">
-            <h3>About Me</h3> <p>I am currently persuing my bachelor's degree in education, but i also want to try something new</p>
-          </div>
+        <main>
+          <section class="about">
+            <h2>About Me</h2> 
+            <p>I am currently persuing my bachelor's degree in education, but i also want to try something new</p>
+          </section>
 
-          <div class="contact">
-            <h3>Contact Me</h3>
-            <div class="call"><span>Phone: +7-953-785-14-81</span></div>
-            <div class="address"><span>Novosibirsk, Russia</span></div>
-            <div class="email"><span>Email: stasyakalinina01@gmail.com</span></div>
-            <div class="telegram"><span>Telegram: </span>@Ka_Stasia</div>
-          </div>
-        </div>
-
-        <div class="func">
-          <div class="work">
-            <h3>Experience</h3>
+          <nav class="contacts">
+            <h2>Contact Me</h2> 
+            <div class="call"><b>Phone:</b> +7-953-785-14-81</div>
+            <div class="address"><b>Address:</b> Novosibirsk, Russia</div>
+            <div class="email"><b>Email:</b> stasyakalinina01@gmail.com</div>
+            <div class="telegram"><b>Telegram:</b>@Ka_Stasia</div>
+            <div class="github"><b>GitHub:</b> KStasya01</div>
+          </nav>
+        
+          <section class="work">
+            <h2>Experience</h2>
             <p>I dont have any yet</p>
-          </div>
+          </section>
 
-          <div class="edu">
-            <h3>Education</h3>
+          <section class="education">
+            <h2>Education</h2>
             <ul>
-              <li><span>Bachelor of Arts<br>Linguistics</span><small>BGU(Irkutsk)</small><small>Sept. 2022 - present time</small></li>
-              <li><span>Unfinished Bachelor's degree</span><small>NSTU</small><small>Sept. 2019 - May. 2021</small></li>
-              <li><span>High School</span><small>МБОУСОШ №207</small><small>sEPT. 2017 - Jun. 2019</small></li>
+              <li><b>Bachelor of Arts<br>Linguistics</b><br>BGU(Irkutsk)<br>Sept. 2022 - present time</li>
+              <li><b>Unfinished Bachelor's degree</b><br>NSTU<br>Sept. 2019 - May. 2021</li>
+              <li><b>High School</b><br>МБОУСОШ №207<br>Sept. 2017 - Jun. 2019</li>
             </ul>
-          </div>
+        </section>
 
-          <div class="skills-prog">
-            <h3>Programming Skills</h3>
+          <section class="skills">
+            <h2>Programming Skills</h2>
             <ul>
-              <li><span>HTML5 Code Basis course</span></li>
-              <li><span>CSS Code Basis course</span></li>
+              <li>HTML5 Code Basis course</li>
+              <li>CSS Code Basis course</li>
             </ul>
-          </div>
+        </section>
 
-          <div class="interests">
-            <h3>Interests</h3>
-            
-              <div class="art"><span>Art</span></div>
-              <div class="art"><span>Books</span></div>
-              <div class="movies"><span>Movies</span></div>
-              <div class="music"><span>Music</span></div>
-              <div class="sport"><span>Badminton</span></div>
-            
-          </div>
-        </div>
+        <section class="code-example">
+            <h2>Code example</h2>
+            <p>This code does not execute properly. Try to figure out why.</p>
+            <pre><code>multiply = function (a, b) {
+                return a * b;
+              }</code></pre>
+        </section>
+
+          <section class="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li><b>Russian:</b>&nbsp;native</li>
+              <li><b>English:</b>&nbsp;advanced</li>
+              <li><b>Korean:</b>&nbsp;intermediate</li>
+              <li><b>French:</b>&nbsp;elementary</li>              
+            </ul>
+          </section>
+        </main>
+        <footer>
+            <section>
+                <a href="https://github.com/KStasya01">My GitHub</a>
+            </section>
+            <section class="year">
+                <p><span>© 2023</span></p>
+            </section>
+            <section class="rsschool-icon">
+                <a href="https://rs.school/js/">
+                  <img src="pictures/rs_school_js.svg" alt="Rsschool Icon" width="73" height="26">
+                </a>
+            </section>
+        </footer>
     </div>
 </body>
 </html>
