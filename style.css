@@ -1,0 +1,81 @@
+
+
+.body {
+  background: #ffffff;
+  cursor: default;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 2px solid palevioletred;
+    max-width: 1440px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 30px;
+  }
+
+
+.header {   
+    border-bottom: 1px solid palevioletred;
+    
+    
+}
+
+.main {
+    border-bottom: 1px solid palevioletred;
+   
+}
+
+.about {
+    border-bottom: 1px solid palevioletred;
+
+}
+
+.contacts {
+    border-bottom: 1px solid palevioletred;
+
+}
+.work {
+    border-bottom: 1px solid palevioletred;
+
+}
+.education {
+    border-bottom: 1px solid palevioletred;
+
+}
+.skills {
+    border-bottom: 1px solid palevioletred;
+}
+
+.code-example {
+    border-bottom: 1px solid palevioletred;
+
+}
+
+.languages {
+        border-bottom: 1px solid palevioletred;
+    
+}
+
+
+.photo {
+    height: 225px;
+    width: 195px;
+    border: 2px solid black;
+}
+
+
+
+.footer {
+    padding: 5px;
+
+}
+
+.rsschool-icon {
+    width: 73;
+    height: 26;
+}
